@@ -2,7 +2,6 @@
 
 module.exports = {};
 
-
 /*
  * balancedParentheses
  * 
@@ -18,6 +17,9 @@ module.exports = {};
  *   returns: false
  * 
  *   input: 'foo bar baz'
+ *   returns: false
+ *
+ *   input: ''
  *   returns: false
  */
 module.exports.balancedParentheses = require( './src/balancedParentheses.js' );

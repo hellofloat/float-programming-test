@@ -1,49 +1,49 @@
 {
-  "name": "float-programming-test",
-  "version": "1.0.1",
-  "description": "A programming test for Float engineering applicants.",
-  "main": "index.js",
-  "scripts": {
-    "test": "tape test/**/*.js | tap-spec"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/hellofloat/float-programming-test.git"
-  },
-  "keywords": [
-    "float"
-  ],
-  "author": "Andy Burke <aburke@bitflood.org>",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/hellofloat/float-programming-test/issues"
-  },
-  "homepage": "https://github.com/hellofloat/float-programming-test#readme",
-  "jshintConfig": {
-    "curly": true,
-    "eqeqeq": true,
-    "eqnull": true,
-    "esnext": true,
-    "forin": true,
-    "freeze": true,
-    "futurehostile": true,
-    "latedef": "nofunc",
-    "maxcomplexity": 10,
-    "maxdepth": 3,
-    "maxparams": 4,
-    "maxstatements": 30,
-    "noarg": true,
-    "nocomma": true,
-    "node": true,
-    "nonbsp": true,
-    "nonew": true,
-    "singleGroups": true,
-    "strict": "global",
-    "undef": true,
-    "unused": true
-  },
-  "devDependencies": {
-    "tap-spec": "^4.1.1",
-    "tape": "^4.5.1"
-  }
+    "name": "float-programming-test",
+    "version": "1.2.0",
+    "description": "A programming test for Float engineering applicants.",
+    "main": "index.js",
+    "scripts": {
+        "test": "tape test/**/*.js | tap-spec"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/hellofloat/float-programming-test.git"
+    },
+    "keywords": [
+        "float"
+    ],
+    "author": "Andy Burke <aburke@bitflood.org>",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/hellofloat/float-programming-test/issues"
+    },
+    "homepage": "https://github.com/hellofloat/float-programming-test#readme",
+    "jshintConfig": {
+        "curly": true,
+        "eqeqeq": true,
+        "eqnull": true,
+        "esnext": true,
+        "forin": true,
+        "freeze": true,
+        "futurehostile": true,
+        "latedef": "nofunc",
+        "maxcomplexity": 10,
+        "maxdepth": 3,
+        "maxparams": 4,
+        "maxstatements": 30,
+        "noarg": true,
+        "nocomma": true,
+        "node": true,
+        "nonbsp": true,
+        "nonew": true,
+        "singleGroups": true,
+        "strict": "global",
+        "undef": true,
+        "unused": true
+    },
+    "devDependencies": {
+        "tap-spec": "^4.1.1",
+        "tape": "^4.5.1"
+    }
 }
